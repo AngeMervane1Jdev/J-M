@@ -1,0 +1,400 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+
+.footer{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  background-image: url(./images/fondF.png);
+ margin-top: 50px;
+ padding: 60px 0px;
+ 
+}
+.footer h1{
+    width: 38%;
+    font-size: 30px;
+    font-family: "Poppins", Helvetica;
+    font-weight: 700;
+    line-height: 1.5;
+    text-align: center;
+    margin-top: 0px;
+}
+.footer h3{
+    width: 40%;
+    font-size: 15px;
+    font-family: "Poppins", Helvetica;
+    font-weight: 400;
+    line-height: 1.8;
+    text-align: center;
+}
+
+.footer .elements{
+    width: 70%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+}
+.footer .elements .elements1{
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+.footer .elements .elements1 .icon{
+    width: 10%;
+}
+.footer .elements .elements1 h2{
+    width: 80%;
+    font-size: 14px;
+    font-family: "Poppins", Helvetica;
+    font-weight: 600;
+    line-height: 1.8;
+}
+   
+.footer .Buttonaction{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -20px;
+  }
+  .footer .Buttonaction .Renforce{
+    width: 100%; 
+    padding: 20px;
+    font-size: 13px; 
+    background: #FF5784;
+    border-style: none;
+    box-shadow: 0px 15px 15px rgba(161, 158, 158, 0.15);
+    border-radius: 15px;  
+    color: white ;
+    font-weight: 600;
+    margin-left: 0px;
+    margin-top: 40px;
+  }
+
+@media (max-width:1935px) {
+
+    .footer{
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 30px;
+      background-image: url(./images/fondF.png);
+     margin-top: 50px;
+     padding: 60px 0px;
+     
+    }
+    .footer h1{
+        width: 38%;
+        font-size: 30px;
+        font-family: "Poppins", Helvetica;
+        font-weight: 700;
+        line-height: 1.5;
+        text-align: center;
+        margin-top: 0px;
+    }
+    .footer h3{
+        width: 40%;
+        font-size: 15px;
+        font-family: "Poppins", Helvetica;
+        font-weight: 400;
+        line-height: 1.8;
+        text-align: center;
+    }
+
+    .footer .elements{
+        width: 70%;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      gap: 20px;
+    }
+    .footer .elements .elements1{
+        width: 30%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 10px;
+    }
+    .footer .elements .elements1 .icon{
+        width: 10%;
+    }
+    .footer .elements .elements1 h2{
+        width: 80%;
+        font-size: 14px;
+        font-family: "Poppins", Helvetica;
+        font-weight: 600;
+        line-height: 1.8;
+    }
+       
+    .footer .Buttonaction{
+        width: 30%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: -20px;
+      }
+      .footer .Buttonaction .Renforce{
+        width: 100%; 
+        padding: 20px;
+        font-size: 13px; 
+        background: #FF5784;
+        border-style: none;
+        box-shadow: 0px 15px 15px rgba(161, 158, 158, 0.15);
+        border-radius: 15px;  
+        color: white ;
+        font-weight: 600;
+        margin-left: 0px;
+        margin-top: 40px;
+      }
+  }
+
+  @media (max-width:1440px) {
+
+    .footer{
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 30px;
+      background-image: url(./images/fondF.png);
+     margin-top: 100px;
+     padding: 60px 0px;
+     
+    }
+    .footer h1{
+        width: 40%;
+        font-size: 30px;
+        font-family: "Poppins", Helvetica;
+        font-weight: 700;
+        line-height: 1.5;
+        text-align: center;
+        margin-top: 0px;
+    }
+    .footer h3{
+        width: 50%;
+        font-size: 15px;
+        font-family: "Poppins", Helvetica;
+        font-weight: 400;
+        line-height: 1.8;
+        text-align: center;
+    }
+
+    .footer .elements{
+        width: 75%;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      gap: 20px;
+    }
+    .footer .elements .elements1{
+        width: 30%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 10px;
+    }
+    .footer .elements .elements1 .icon{
+        width: 10%;
+    }
+    .footer .elements .elements1 h2{
+        width: 80%;
+        font-size: 14px;
+        font-family: "Poppins", Helvetica;
+        font-weight: 600;
+        line-height: 1.8;
+    }
+       
+    .footer .Buttonaction{
+        width: 30%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: -20px;
+      }
+      .footer .Buttonaction .Renforce{
+        width: 100%; 
+        padding: 20px;
+        font-size: 13px; 
+        background: #FF5784;
+        border-style: none;
+        box-shadow: 0px 15px 15px rgba(161, 158, 158, 0.15);
+        border-radius: 15px;  
+        color: white ;
+        font-weight: 600;
+        margin-left: 0px;
+        margin-top: 40px;
+      }
+  }
+
+  @media (max-width:912px) {
+
+    .footer{
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 30px;
+      background-image: url(./images/fondF.png);
+     margin-top: 100px;
+     padding: 60px 0px;
+     
+    }
+    .footer h1{
+        width: 65%;
+        font-size: 30px;
+        font-family: "Poppins", Helvetica;
+        font-weight: 700;
+        line-height: 1.5;
+        text-align: center;
+        margin-top: 0px;
+    }
+    .footer h3{
+        width: 60%;
+        font-size: 15px;
+        font-family: "Poppins", Helvetica;
+        font-weight: 400;
+        line-height: 1.8;
+        text-align: center;
+    }
+
+    .footer .elements{
+        width: 90%;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      gap: 10px;
+    }
+    .footer .elements .elements1{
+        width: 40%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 15px;
+    }
+    .footer .elements .elements1 .icon{
+        width: 10%;
+    }
+    .footer .elements .elements1 h2{
+        width: 90%;
+        font-size: 11px;
+        font-family: "Poppins", Helvetica;
+        font-weight: 600;
+        line-height: 1.8;
+    }
+       
+    .footer .Buttonaction{
+        width: 40%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: -20px;
+        margin-left: 0px;
+      }
+      .footer .Buttonaction .Renforce{
+        width: 100%; 
+        padding: 20px;
+        font-size: 10px; 
+        background: #FF5784;
+        border-style: none;
+        box-shadow: 0px 15px 15px rgba(161, 158, 158, 0.15);
+        border-radius: 15px;  
+        color: white ;
+        font-weight: 600;
+        margin-left: 0px;
+        margin-top: 40px;
+      }
+  }
+
+  @media (max-width:650px) {
+
+    .footer{
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 30px;
+      background-image: url(./images/fondF.png);
+     margin-top: 100px;
+     padding: 60px 0px;
+     
+    }
+    .footer h1{
+        width: 80%;
+        font-size: 15px;
+        font-family: "Poppins", Helvetica;
+        font-weight: 700;
+        line-height: 1.5;
+        text-align: center;
+        margin-top: 0px;
+    }
+    .footer h3{
+        width: 80%;
+        font-size: 12px;
+        font-family: "Poppins", Helvetica;
+        font-weight: 400;
+        line-height: 1.8;
+        text-align: center;
+    }
+
+    .footer .elements{
+        width: 90%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 20px;
+    }
+    .footer .elements .elements1{
+        width: 80%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+    }
+    .footer .elements .elements1 .icon{
+        width: 10%;
+    }
+    .footer .elements .elements1 h2{
+        width: 80%;
+        font-size: 12px;
+        font-family: "Poppins", Helvetica;
+        font-weight: 600;
+        line-height: 1.8;
+    }
+       
+    .footer .Buttonaction{
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: -20px;
+      }
+      .footer .Buttonaction .Renforce{
+        width: 100%; 
+        padding: 20px;
+        font-size: 11px; 
+        background: #FF5784;
+        border-style: none;
+        box-shadow: 0px 15px 15px rgba(161, 158, 158, 0.15);
+        border-radius: 15px;  
+        color: white ;
+        font-weight: 600;
+        margin-left: 0px;
+        margin-top: 40px;
+      }
+  }

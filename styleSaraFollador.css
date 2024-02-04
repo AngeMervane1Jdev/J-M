@@ -1,0 +1,671 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.SaraFollador{
+  width: 100%;
+  height: 100%;
+  margin-top: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color:#F0F0F0;
+  padding-bottom: 60px;
+  
+}
+.SaraFollador .container{
+  width: 90%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 70px;
+  margin-left: 0px;
+  
+}
+.SaraFollador .container .title{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 40px;
+  gap: 20px;
+
+}
+.SaraFollador .container .title .rectangle{
+  width: 18px;
+  height: 118px;
+  background-color: #FF5784;
+}
+.SaraFollador .container .title h1{
+  width: 100%;
+  font-size: 40px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 800;
+  line-height: 1.5;
+  color: #000000;
+
+}
+
+.SaraFollador .container .conten{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 70px;
+
+}
+.SaraFollador .container .conten .content1{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+}
+.SaraFollador .container .conten .content1 .contentImage{
+  width: 50%;
+ 
+}
+.SaraFollador .container .conten .content1 p{
+  width: 50%;
+  font-size: 20px;
+  font-family: "Lato", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  letter-spacing: 0;
+  line-height: 44px;
+  text-align: justify;
+}
+
+.SaraFollador .container .conten .content2 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap:  40px;
+}
+.SaraFollador .container .conten .content2 .p1{
+  width:50%;
+  font-family: "Lato", Helvetica;
+  font-weight: 400;
+  font-size: 22px;
+  color: #000000;
+  letter-spacing: 0;
+  line-height: 44px;
+  text-align: justify;
+}
+.SaraFollador .container .conten .content2 .p2{
+  width: 50%;
+  font-family: "Lato", Helvetica;
+  font-weight: 400;
+  font-size: 22px;
+  color: #000000;
+  letter-spacing: 0;
+  line-height: 44px;
+  text-align: justify;
+}
+
+
+@media (max-width:1935px) {
+
+.SaraFollador{
+    width: 100%;
+    height: 100%;
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:#F0F0F0;
+    padding-bottom: 60px;
+    
+  }
+.SaraFollador .container{
+    width: 90%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 70px;
+    margin-left: 0px;
+    
+}
+ .SaraFollador .container .title{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 40px;
+    gap: 20px;
+
+  }
+  .SaraFollador .container .title .rectangle{
+    width: 18px;
+    height: 118px;
+    background-color: #FF5784;
+  }
+  .SaraFollador .container .title h1{
+    width: 100%;
+    font-size: 40px;
+    font-family: "Poppins", Helvetica;
+    font-weight: 800;
+    line-height: 1.5;
+    color: #000000;
+
+  }
+ 
+  .SaraFollador .container .conten{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+
+  }
+  .SaraFollador .container .conten .content1{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+  }
+  .SaraFollador .container .conten .content1 .contentImage{
+    width: 50%;
+   
+  }
+  .SaraFollador .container .conten .content1 p{
+    width: 50%;
+    font-size: 20px;
+    font-family: "Lato", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    letter-spacing: 0;
+    line-height: 44px;
+    text-align: justify;
+  }
+
+  .SaraFollador .container .conten .content2 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap:  40px;
+  }
+  .SaraFollador .container .conten .content2 .p1{
+    width:50%;
+    font-family: "Lato", Helvetica;
+    font-weight: 400;
+    font-size: 22px;
+    color: #000000;
+    letter-spacing: 0;
+    line-height: 44px;
+    text-align: justify;
+  }
+  .SaraFollador .container .conten .content2 .p2{
+    width: 50%;
+    font-family: "Lato", Helvetica;
+    font-weight: 400;
+    font-size: 22px;
+    color: #000000;
+    letter-spacing: 0;
+    line-height: 44px;
+    text-align: justify;
+  }
+  
+
+  
+            }
+
+@media (max-width:1440px) {
+
+    .SaraFollador{
+        width: 100%;
+        height: 100%;
+        margin-top: 150px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color:#F0F0F0;
+        padding-bottom: 60px;
+      }
+    .SaraFollador .container{
+        width: 90%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 70px;
+        margin-left: 0px;
+        
+    }
+     .SaraFollador .container .title{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-top: 40px;
+        gap: 20px;
+    
+      }
+      .SaraFollador .container .title .rectangle{
+        width: 18px;
+        height: 118px;
+        background-color: #FF5784;
+      }
+      .SaraFollador .container .title h1{
+        width: 100%;
+        font-size: 35px;
+        font-family: "Poppins", Helvetica;
+        font-weight: 800;
+        line-height: 1.5;
+        color: #000000;
+    
+      }
+     
+      .SaraFollador .container .conten{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 70px;
+    
+      }
+      .SaraFollador .container .conten .content1{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 20px;
+      }
+      .SaraFollador .container .conten .content1 .contentImage{
+        width: 50%;
+       
+      }
+      .SaraFollador .container .conten .content1 p{
+        width: 50%;
+        font-size: 16px;
+        font-family: "Lato", Helvetica;
+        font-weight: 400;
+        color: #000000;
+        letter-spacing: 0;
+        line-height: 44px;
+        text-align: justify;
+      }
+    
+      .SaraFollador .container .conten .content2 {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        gap:  40px;
+      }
+      .SaraFollador .container .conten .content2 .p1{
+        width:50%;
+        font-family: "Lato", Helvetica;
+        font-weight: 400;
+        font-size: 16px;
+        color: #000000;
+        letter-spacing: 0;
+        line-height: 44px;
+        text-align: justify;
+      }
+      .SaraFollador .container .conten .content2 .p2{
+        width: 50%;
+        font-family: "Lato", Helvetica;
+        font-weight: 400;
+        font-size: 16px;
+        color: #000000;
+        letter-spacing: 0;
+        line-height: 44px;
+        text-align: justify;
+      }
+      
+    
+      
+                }
+ 
+@media (max-width:912px) {
+
+    .SaraFollador{
+        width: 100%;
+        height: 100%;
+        margin-top: 150px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color:#F0F0F0;
+        padding-bottom: 60px;
+      }
+    .SaraFollador .container{
+        width: 90%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 70px;
+        margin-left: 0px;
+        
+    }
+     .SaraFollador .container .title{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-top: 40px;
+        gap: 20px;
+    
+      }
+      .SaraFollador .container .title .rectangle{
+        width: 18px;
+        height: 118px;
+        background-color: #FF5784;
+      }
+      .SaraFollador .container .title h1{
+        width: 100%;
+        font-size: 30px;
+        font-family: "Poppins", Helvetica;
+        font-weight: 800;
+        line-height: 1.5;
+        color: #000000;
+    
+      }
+     
+      .SaraFollador .container .conten{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 70px;
+    
+      }
+      .SaraFollador .container .conten .content1{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+      }
+      .SaraFollador .container .conten .content1 .contentImage{
+        width: 80%;
+       
+      }
+      .SaraFollador .container .conten .content1 p{
+        width: 80%;
+        font-size: 20px;
+        font-family: "Lato", Helvetica;
+        font-weight: 400;
+        color: #000000;
+        letter-spacing: 0;
+        line-height: 44px;
+        text-align: justify;
+      }
+    
+      .SaraFollador .container .conten .content2 {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap:  40px;
+      }
+      .SaraFollador .container .conten .content2 .p1{
+        width:80%;
+        font-family: "Lato", Helvetica;
+        font-weight: 400;
+        font-size: 20px;
+        color: #000000;
+        letter-spacing: 0;
+        line-height: 44px;
+        text-align: justify;
+      }
+      .SaraFollador .container .conten .content2 .p2{
+        width: 80%;
+        font-family: "Lato", Helvetica;
+        font-weight: 400;
+        font-size: 20px;
+        color: #000000;
+        letter-spacing: 0;
+        line-height: 44px;
+        text-align: justify;
+      }
+      
+    
+      
+                }
+                          
+
+
+@media (max-width:650px) {
+
+    .SaraFollador{
+        width: 100%;
+        height: 100%;
+        margin-top: 150px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color:#F0F0F0;
+        padding-bottom: 60px;
+        
+      }
+    .SaraFollador .container{
+        width: 90%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 70px;
+        margin-left: 0px;
+        
+    }
+     .SaraFollador .container .title{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-top: 40px;
+        gap: 20px;
+    
+      }
+      .SaraFollador .container .title .rectangle{
+        width: 18px;
+        height: 118px;
+        background-color: #FF5784;
+      }
+      .SaraFollador .container .title h1{
+        width: 100%;
+        font-size: 20px;
+        font-family: "Poppins", Helvetica;
+        font-weight: 800;
+        line-height: 1.5;
+        color: #000000;
+    
+      }
+     
+      .SaraFollador .container .conten{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 70px;
+    
+      }
+      .SaraFollador .container .conten .content1{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+      }
+      .SaraFollador .container .conten .content1 .contentImage{
+        width: 80%;
+       
+      }
+      .SaraFollador .container .conten .content1 p{
+        width: 80%;
+        font-size: 16px;
+        font-family: "Lato", Helvetica;
+        font-weight: 400;
+        color: #000000;
+        letter-spacing: 0;
+        line-height: 44px;
+        text-align: justify;
+      }
+    
+      .SaraFollador .container .conten .content2 {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap:  40px;
+      }
+      .SaraFollador .container .conten .content2 .p1{
+        width:80%;
+        font-family: "Lato", Helvetica;
+        font-weight: 400;
+        font-size: 16px;
+        color: #000000;
+        letter-spacing: 0;
+        line-height: 44px;
+        text-align: justify;
+      }
+      .SaraFollador .container .conten .content2 .p2{
+        width: 80%;
+        font-family: "Lato", Helvetica;
+        font-weight: 400;
+        font-size: 16px;
+        color: #000000;
+        letter-spacing: 0;
+        line-height: 44px;
+        text-align: justify;
+      }
+      
+    
+      
+                }
+
+@media (max-width:650px) {
+
+  .SaraFollador{
+      width: 100%;
+      height: 100%;
+      margin-top: 150px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background-color:#F0F0F0;
+      padding-bottom: 60px;
+      
+    }
+  .SaraFollador .container{
+      width: 90%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 70px;
+      margin-left: 0px;
+      
+  }
+   .SaraFollador .container .title{
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      margin-top: 40px;
+      gap: 20px;
+  
+    }
+    .SaraFollador .container .title .rectangle{
+      width: 18px;
+      height: 118px;
+      background-color: #FF5784;
+    }
+    .SaraFollador .container .title h1{
+      width: 100%;
+      font-size: 17px;
+      font-family: "Poppins", Helvetica;
+      font-weight: 800;
+      line-height: 1.5;
+      color: #000000;
+  
+    }
+   
+    .SaraFollador .container .conten{
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      gap: 70px;
+  
+    }
+    .SaraFollador .container .conten .content1{
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+    }
+    .SaraFollador .container .conten .content1 .contentImage{
+      width: 80%;
+     
+    }
+    .SaraFollador .container .conten .content1 p{
+      width: 80%;
+      font-size: 16px;
+      font-family: "Lato", Helvetica;
+      font-weight: 400;
+      color: #000000;
+      letter-spacing: 0;
+      line-height: 44px;
+      text-align: justify;
+    }
+  
+    .SaraFollador .container .conten .content2 {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap:  40px;
+    }
+    .SaraFollador .container .conten .content2 .p1{
+      width:80%;
+      font-family: "Lato", Helvetica;
+      font-weight: 400;
+      font-size: 16px;
+      color: #000000;
+      letter-spacing: 0;
+      line-height: 44px;
+      text-align: justify;
+    }
+    .SaraFollador .container .conten .content2 .p2{
+      width: 80%;
+      font-family: "Lato", Helvetica;
+      font-weight: 400;
+      font-size: 16px;
+      color: #000000;
+      letter-spacing: 0;
+      line-height: 44px;
+      text-align: justify;
+    }
+    
+  
+    
+              }               
+            

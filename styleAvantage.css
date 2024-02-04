@@ -1,0 +1,766 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.styleAvantage{
+  width: 100%;
+  height: 100%;
+  margin-top: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+.styleAvantage .container{
+  width: 90%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 70px;
+  
+}
+.styleAvantage .container .title{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+
+}
+.styleAvantage .container .title .rectangle{
+  width: 18px;
+  height: 66px;
+  background-color: #FFC700;
+}
+.styleAvantage .container .title h1{
+  width: 100%;
+  font-size: 40px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 800;
+  line-height: 1.5;
+  color: #000000;
+
+}
+.styleAvantage .container .title span{
+  color: #FF5784;
+
+}
+
+.styleAvantage .container .element{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  gap: 70px;
+
+}
+.styleAvantage .container .element .element1{
+  width: 30%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  background-color: white;
+  border-radius: 25px;
+  box-shadow: 35px 20px 80px -5px #3d3d3d26;
+  padding-top: 25px;
+  padding-bottom: 40px;
+
+}
+
+.styleAvantage .container .element .elemnt{
+  padding-bottom: 40px;
+
+}
+.styleAvantage .container .element .elemnt2{
+  padding-bottom: 75px;
+
+}
+
+
+
+.styleAvantage .container .element1 .icone{
+  width: 90%;
+  height: 10%;
+}
+
+.styleAvantage .container .element1 h2{
+  width: 80%;
+  height: 100%;
+  font-size: 26px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 600;
+  line-height: 1.5;
+  color: #000000;
+}
+.styleAvantage .container .element1 h3{
+  width: 80%;
+  height: 100%;
+  font-size: 26px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #3d3d3d;
+}
+
+
+.styleAvantage .container .Buttonaction{
+  width:30% ;
+  margin-top: 0px;
+ }
+ .styleAvantage .container .Buttonaction .Decouvre{
+      width: 100%;
+      color: #ffffff;
+      border-style: none;
+      background-color:  #FF5784;
+      font-size: 18px;
+      font-family: "Poppins", Helvetica;
+      font-weight: 600;
+      padding: 20px 22px;
+      border-radius: 15px;
+      box-shadow: 0px 4px 4px #00000026;
+   
+ }  
+@media (max-width:1935px) {
+
+.styleAvantage{
+    width: 100%;
+    height: 100%;
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+  }
+.styleAvantage .container{
+    width: 90%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 70px;
+    
+}
+ .styleAvantage .container .title{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+
+  }
+  .styleAvantage .container .title .rectangle{
+    width: 18px;
+    height: 66px;
+    background-color: #FFC700;
+  }
+  .styleAvantage .container .title h1{
+    width: 100%;
+    font-size: 40px;
+    font-family: "Poppins", Helvetica;
+    font-weight: 800;
+    line-height: 1.5;
+    color: #000000;
+
+  }
+  .styleAvantage .container .title span{
+    color: #FF5784;
+
+  }
+
+  .styleAvantage .container .element{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 70px;
+
+  }
+  .styleAvantage .container .element .element1{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    background-color: white;
+    border-radius: 25px;
+    box-shadow: 35px 20px 80px -5px #3d3d3d26;
+    padding-top: 25px;
+    padding-bottom: 40px;
+
+  }
+
+  .styleAvantage .container .element .elemnt{
+    padding-bottom: 40px;
+
+  }
+  .styleAvantage .container .element .elemnt2{
+    padding-bottom: 75px;
+
+  }
+  
+
+
+  .styleAvantage .container .element1 .icone{
+    width: 90%;
+    height: 10%;
+  }
+
+  .styleAvantage .container .element1 h2{
+    width: 80%;
+    height: 100%;
+    font-size: 26px;
+    font-family: "Poppins", Helvetica;
+    font-weight: 600;
+    line-height: 1.5;
+    color: #000000;
+  }
+  .styleAvantage .container .element1 h3{
+    width: 80%;
+    height: 100%;
+    font-size: 26px;
+    font-family: "Poppins", Helvetica;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #3d3d3d;
+  }
+  
+
+  .styleAvantage .container .Buttonaction{
+    width:30% ;
+    margin-top: 0px;
+   }
+   .styleAvantage .container .Buttonaction .Decouvre{
+        width: 100%;
+        color: #ffffff;
+        border-style: none;
+        background-color:  #FF5784;
+        font-size: 18px;
+        font-family: "Poppins", Helvetica;
+        font-weight: 600;
+        padding: 20px 22px;
+        border-radius: 15px;
+        box-shadow: 0px 4px 4px #00000026;
+     
+   }  
+            }
+
+@media (max-width:1440px) {
+
+    .styleAvantage{
+        width: 100%;
+        height: 100%;
+        margin-top: 120px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+      }
+    .styleAvantage .container{
+        width: 90%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 70px;
+        
+    }
+     .styleAvantage .container .title{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 20px;
+    
+      }
+      .styleAvantage .container .title .rectangle{
+        width: 18px;
+        height: 66px;
+        background-color: #FFC700;
+      }
+      .styleAvantage .container .title h1{
+        width: 100%;
+        font-size: 35px;
+        font-family: "Poppins", Helvetica;
+        font-weight: 800;
+        line-height: 1.5;
+        color: #000000;
+    
+      }
+      .styleAvantage .container .title span{
+        color: #FF5784;
+    
+      }
+    
+      .styleAvantage .container .element{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        gap: 70px;
+    
+      }
+      .styleAvantage .container .element .element1{
+        width: 30%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        background-color: white;
+        border-radius: 25px;
+        box-shadow: 35px 20px 50px -5px #3d3d3d26;
+        padding-top: 25px;
+        padding-bottom: 40px;
+    
+      }
+    
+      .styleAvantage .container .element .elemnt{
+        padding-bottom: 40px;
+    
+      }
+      .styleAvantage .container .element .elemnt2{
+        padding-bottom: 40px;
+    
+      }
+      
+    
+    
+      .styleAvantage .container .element1 .icone{
+        width: 90%;
+        height: 10%;
+      }
+    
+      .styleAvantage .container .element1 h2{
+        width: 80%;
+        height: 100%;
+        font-size: 18px;
+        font-family: "Poppins", Helvetica;
+        font-weight: 600;
+        line-height: 1.5;
+        color: #000000;
+      }
+      .styleAvantage .container .element1 h3{
+        width: 80%;
+        height: 100%;
+        font-size: 16.5px;
+        font-family: "Poppins", Helvetica;
+        font-weight: 400;
+        line-height: 1.5;
+        color: #3d3d3d;
+      }
+      
+    
+      .styleAvantage .container .Buttonaction{
+        width:27% ;
+        margin-top: 0px;
+       }
+       .styleAvantage .container .Buttonaction .Decouvre{
+            width: 100%;
+            color: #ffffff;
+            border-style: none;
+            background-color:  #FF5784;
+            font-size: 12px;
+            font-family: "Poppins", Helvetica;
+            font-weight: 600;
+            padding: 20px 22px;
+            border-radius: 15px;
+            box-shadow: 0px 4px 4px #00000026;
+         
+       }  
+}
+
+@media (max-width:912px) {
+
+    .styleAvantage{
+        width: 100%;
+        height: 100%;
+        margin-top: 100px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+      }
+    .styleAvantage .container{
+        width: 90%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 70px;
+        
+    }
+     .styleAvantage .container .title{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 20px;
+    
+      }
+      .styleAvantage .container .title .rectangle{
+        width: 18px;
+        height: 66px;
+        background-color: #FFC700;
+      }
+      .styleAvantage .container .title h1{
+        width: 100%;
+        font-size: 30px;
+        font-family: "Poppins", Helvetica;
+        font-weight: 800;
+        line-height: 1.4;
+        color: #000000;
+    
+      }
+      .styleAvantage .container .title span{
+        color: #FF5784;
+    
+      }
+    
+      .styleAvantage .container .element{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        gap: 70px;
+    
+      }
+      .styleAvantage .container .element .element1{
+        width: 40%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        background-color: white;
+        border-radius: 25px;
+        box-shadow: 35px 20px 50px -5px #3d3d3d26;
+        padding-top: 25px;
+        padding-bottom: 40px;
+    
+      }
+    
+      .styleAvantage .container .element .elemnt{
+        padding-bottom: 40px;
+    
+      }
+      .styleAvantage .container .element .elemnt2{
+        padding-bottom: 40px;
+    
+      }
+      
+    
+    
+      .styleAvantage .container .element1 .icone{
+        width: 90%;
+        height: 10%;
+      }
+    
+      .styleAvantage .container .element1 h2{
+        width: 80%;
+        height: 100%;
+        font-size: 18px;
+        font-family: "Poppins", Helvetica;
+        font-weight: 600;
+        line-height: 1.5;
+        color: #000000;
+      }
+      .styleAvantage .container .element1 h3{
+        width: 80%;
+        height: 100%;
+        font-size: 16.5px;
+        font-family: "Poppins", Helvetica;
+        font-weight: 400;
+        line-height: 1.5;
+        color: #3d3d3d;
+      }
+      
+    
+      .styleAvantage .container .Buttonaction{
+        width:35% ;
+        margin-top: 0px;
+        margin-left: 0px;
+       }
+       .styleAvantage .container .Buttonaction .Decouvre{
+            width: 100%;
+            color: #ffffff;
+            border-style: none;
+            background-color:  #FF5784;
+            font-size: 9px;
+            font-family: "Poppins", Helvetica;
+            font-weight: 600;
+            padding: 20px 22px;
+            border-radius: 15px;
+            box-shadow: 0px 4px 4px #00000026;
+         
+       }  
+}
+
+
+@media (max-width:650px) {
+
+    .styleAvantage{
+        width: 100%;
+        height: 100%;
+        margin-top: 80px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+      }
+    .styleAvantage .container{
+        width: 90%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 70px;
+        
+    }
+     .styleAvantage .container .title{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 20px;
+    
+      }
+      .styleAvantage .container .title .rectangle{
+        width: 18px;
+        height: 66px;
+        background-color: #FFC700;
+      }
+      .styleAvantage .container .title h1{
+        width: 100%;
+        font-size: 20px;
+        font-family: "Poppins", Helvetica;
+        font-weight: 800;
+        line-height: 1.5;
+        color: #000000;
+    
+      }
+      .styleAvantage .container .title span{
+        color: #FF5784;
+    
+      }
+    
+      .styleAvantage .container .element{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 70px;
+    
+      }
+      .styleAvantage .container .element .element1{
+        width: 80%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        background-color: white;
+        border-radius: 25px;
+        box-shadow: 35px 20px 50px -5px #3d3d3d26;
+        padding-top: 25px;
+        padding-bottom: 40px;
+    
+      }
+    
+      .styleAvantage .container .element .elemnt{
+        padding-bottom: 40px;
+    
+      }
+      .styleAvantage .container .element .elemnt2{
+        padding-bottom: 40px;
+    
+      }
+      
+    
+    
+      .styleAvantage .container .element1 .icone{
+        width: 90%;
+        height: 10%;
+      }
+    
+      .styleAvantage .container .element1 h2{
+        width: 80%;
+        height: 100%;
+        font-size: 18px;
+        font-family: "Poppins", Helvetica;
+        font-weight: 600;
+        line-height: 1.5;
+        color: #000000;
+      }
+      .styleAvantage .container .element1 h3{
+        width: 80%;
+        height: 100%;
+        font-size: 16.5px;
+        font-family: "Poppins", Helvetica;
+        font-weight: 400;
+        line-height: 1.5;
+        color: #3d3d3d;
+      }
+      
+    
+      .styleAvantage .container .Buttonaction{
+        width:80% ;
+        margin-top: 0px;
+       }
+       .styleAvantage .container .Buttonaction .Decouvre{
+            width: 100%;
+            color: #ffffff;
+            border-style: none;
+            background-color:  #FF5784;
+            font-size: 10px;
+            font-family: "Poppins", Helvetica;
+            font-weight: 600;
+            padding: 20px 22px;
+            border-radius: 15px;
+            box-shadow: 0px 4px 4px #00000026;
+         
+       }  
+}
+
+@media (max-width:280px) {
+
+  .styleAvantage{
+      width: 100%;
+      height: 100%;
+      margin-top: 80px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      
+    }
+  .styleAvantage .container{
+      width: 90%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 70px;
+      
+  }
+   .styleAvantage .container .title{
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      gap: 20px;
+  
+    }
+    .styleAvantage .container .title .rectangle{
+      width: 18px;
+      height: 66px;
+      background-color: #FFC700;
+    }
+    .styleAvantage .container .title h1{
+      width: 100%;
+      font-size: 15px;
+      font-family: "Poppins", Helvetica;
+      font-weight: 800;
+      line-height: 1.5;
+      color: #000000;
+  
+    }
+    .styleAvantage .container .title span{
+      color: #FF5784;
+  
+    }
+  
+    .styleAvantage .container .element{
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 70px;
+  
+    }
+    .styleAvantage .container .element .element1{
+      width: 80%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+      background-color: white;
+      border-radius: 25px;
+      box-shadow: 35px 20px 50px -5px #3d3d3d26;
+      padding-top: 25px;
+      padding-bottom: 40px;
+  
+    }
+  
+    .styleAvantage .container .element .elemnt{
+      padding-bottom: 40px;
+  
+    }
+    .styleAvantage .container .element .elemnt2{
+      padding-bottom: 40px;
+  
+    }
+    
+  
+  
+    .styleAvantage .container .element1 .icone{
+      width: 90%;
+      height: 10%;
+    }
+  
+    .styleAvantage .container .element1 h2{
+      width: 80%;
+      height: 100%;
+      font-size: 18px;
+      font-family: "Poppins", Helvetica;
+      font-weight: 600;
+      line-height: 1.5;
+      color: #000000;
+    }
+    .styleAvantage .container .element1 h3{
+      width: 80%;
+      height: 100%;
+      font-size: 16.5px;
+      font-family: "Poppins", Helvetica;
+      font-weight: 400;
+      line-height: 1.5;
+      color: #3d3d3d;
+    }
+    
+  
+    .styleAvantage .container .Buttonaction{
+      width:80% ;
+      margin-top: 0px;
+     }
+     .styleAvantage .container .Buttonaction .Decouvre{
+          width: 100%;
+          color: #ffffff;
+          border-style: none;
+          background-color:  #FF5784;
+          font-size: 10px;
+          font-family: "Poppins", Helvetica;
+          font-weight: 600;
+          padding: 20px 22px;
+          border-radius: 15px;
+          box-shadow: 0px 4px 4px #00000026;
+       
+     }  
+}
+    
+        
+    

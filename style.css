@@ -1,0 +1,514 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.firstContainer{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    background-image: url(./images/FirstBannerPc.png);
+   
+   
+  }
+  .content{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 110px;
+    margin-left: 50px;
+   
+  }
+  .content h1{
+    width: 95%;
+    font-size: 42px;
+    font-family: "Poppins", Helvetica;
+    font-weight: 600;
+    line-height: 1.8;
+  }
+  .content img{
+    width: 50%;
+    height:2%;
+    margin-top: 20px;
+  }
+  .content h3{
+    width: 80%;
+    font-family:"IBM Plex Sans", Helvetica;
+    font-weight: 400;
+    font-size:26px;
+    margin-top: 50px;
+    line-height: 1.8;
+  }
+   
+ .firstContainer .Buttonaction{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+  }
+  .sinscrire{
+    width: 30%; 
+   padding: 15px;
+    font-size: 20px; 
+    border-style: none;
+    background: #FF00D6;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 15px;  
+    color: white ;
+  }
+  .plusdinfos{
+    width: 30%;
+    padding: 15px;
+    color: #585858;
+    font-size: 20px; 
+    font-family: Poppins;
+    font-weight: 700; 
+    background-color: #ffc70014;
+    border-radius: 15px;
+    border: 3px solid;
+    border-color: #ffc905;
+    box-shadow: 0px 4px 4px #00000026;
+    margin-left: 20px;
+  }
+
+  
+  .illustration {
+   width: 50%;
+   margin-top: 75px;
+   margin-left: -100px;
+    
+  }
+
+@media (max-width:1935px) {
+
+  .firstContainer{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-image: url(./images/FirstBannerPc.png);
+    padding-bottom: 60px;
+   
+  }
+  .content{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+    margin-left: 50px;
+   
+  }
+  .content h1{
+    width: 95%;
+    font-size: 42px;
+    font-family: "Poppins", Helvetica;
+    font-weight: 600;
+    line-height: 1.8;
+  }
+  .content img{
+    width: 50%;
+    height:2%;
+    margin-top: 20px;
+  }
+  .content h3{
+    width: 80%;
+    font-family:"IBM Plex Sans", Helvetica;
+    font-weight: 400;
+    font-size:26px;
+    margin-top: 50px;
+    line-height: 1.8;
+  }
+   
+  .Buttonaction{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+  }
+  .sinscrire{
+    width: 30%; 
+   padding: 15px;
+    font-size: 20px; 
+    background: #FF00D6;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 15px;  
+    border-color: #FF00D6;
+    color: white ;
+  }
+  .plusdinfos{
+    width: 30%;
+    padding: 15px;
+    color: #585858;
+    font-size: 20px; 
+    font-family: Poppins;
+    font-weight: 700; 
+    background-color: #ffc70014;
+    border-radius: 15px;
+    border: 3px solid;
+    border-color: #ffc905;
+    box-shadow: 0px 4px 4px #00000026;
+    margin-left: 20px;
+  }
+
+  
+  .illustration {
+   width: 50%;
+   margin-top: 75px;
+   margin-left: 0px;
+    
+  }
+
+      
+}
+
+@media (max-width:1440px) {
+
+    .firstContainer{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        background-image: url(./images//SecondBannerPc.png);
+        padding-bottom: 60px;
+      }
+      .content{
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        margin-top: 110px;
+        margin-left: 50px;
+       
+      }
+      .content h1{
+        width: 95%;
+        font-size:34px;
+        font-family: "Poppins", Helvetica;
+        font-weight: 600;
+        line-height: 1.8;
+      }
+      .content img{
+        width: 50%;
+        height: 2%;
+        margin-top: 20px;
+      }
+      .content h3{
+        width: 80%;
+        font-family:"IBM Plex Sans", Helvetica;
+        font-weight: 400;
+        font-size:22px;
+        margin-top: 50px;
+        line-height: 1.8;
+      }
+       
+      .Buttonaction{
+        margin-top: 50px;
+      }
+      .sinscrire{
+        width: 30%; 
+        padding: 15px;
+        font-size: 20px; 
+        background: #FF00D6;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+        border-radius: 15px;  
+        border-color: #FF00D6;
+        color: white ;
+      }
+      .plusdinfos{
+        width: 30%;
+        padding: 15px;
+        color: #585858;
+        font-size: 20px; 
+        font-family: Poppins;
+        font-weight: 700; 
+        background-color: #ffc70014;
+        border-radius: 15px;
+        border: 3px solid;
+        border-color: #ffc905;
+        box-shadow: 0px 4px 4px #00000026;
+        margin-left: 20px;
+      }
+    
+      
+      .illustration {
+       width: 50%;
+       margin-top: 75px;
+       margin-left: -80px;
+        
+      }
+
+              
+          
+      
+    }
+
+    @media (max-width:912px) {
+
+        .firstContainer{
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column-reverse;
+            align-items: center;
+            background-image: url(./images/ThirdBannerPc.png);
+            padding-bottom: 60px;
+          }
+          .content{
+            width: 95%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 50px;
+            margin-left: 0px;
+           
+          }
+          .content h1{
+            width: 95%;
+            font-size:32px;
+            font-family: "Poppins", Helvetica;
+            font-weight: 600;
+            line-height: 1.8;
+            text-align: center;
+            margin-top: -20px;
+          }
+          .content img{
+            width: 80%;
+            height: 2%;
+            margin-top: 20px;
+            margin-left: 30px;
+          }
+          .content h3{
+            width: 80%;
+            font-family:"IBM Plex Sans", Helvetica;
+            font-weight: 400;
+            font-size:28px;
+            margin-top: 30px;
+            line-height: 1.8;
+            text-align: center;
+            margin-left: 0px;
+          }
+           
+          .Buttonaction{
+            width: 80%;
+            margin-top: 50px;
+            margin-left: 0px;
+          }
+          .sinscrire{
+            width: 50%; 
+            height: 70px; 
+            font-size: 25px; 
+            background: #FF00D6;
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+            border-radius: 15px;  
+            border-color: #FF00D6;
+            color: white ;
+          }
+          .plusdinfos{
+            width:50%;
+            height: 70px; 
+            color: #585858;
+            font-size: 25px; 
+            font-family: Poppins;
+            font-weight: 500; 
+            background-color: #ffc70014;
+            border-radius: 15px;
+            border: 1.5px solid;
+            border-color: #ffc905;
+            box-shadow: 0px 4px 4px #00000026;
+            margin-left: 20px;
+          }
+        
+          
+          .illustration {
+           width:95%;
+           margin-top:100px;
+           margin-left: 15px;
+            
+          }
+ 
+          
+        }
+
+
+        @media (max-width:650px) {
+
+          .firstContainer{
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column-reverse;
+            align-self: center;
+            background-image: url(./images/ThirdBannerPc.png);
+            padding-bottom: 60px;
+          }
+              .content{
+                width: 90%;
+                display: flex;
+                flex-direction: column;
+                align-self: center;
+                margin-top: 50px;
+                margin-left: 0px;
+               
+              }
+              .content h1{
+                width: 95%;
+                font-size:18px;
+                font-family: "Poppins", Helvetica;
+                font-weight: 600;
+                line-height: 1.8;
+                text-align: center;
+                margin-top: -20px;
+              }
+              .content img{
+                width: 80%;
+                height: 2%;
+                margin-top: 20px;
+                margin-left: 30px;
+              }
+              .content h3{
+                width: 80%;
+                font-family:"IBM Plex Sans", Helvetica;
+                font-weight: 400;
+                font-size:14px;
+                margin-top: 30px;
+                line-height: 1.8;
+                text-align: center;
+                margin-left: 0px;
+              }
+               
+              .Buttonaction{
+                margin-top: 50px;
+                margin-left: 0px;
+                justify-content: center;
+              }
+              .sinscrire{
+                width: 40%; 
+                height: 38px; 
+              justify-content: center;
+                font-size: 13px; 
+                background: #FF00D6;
+                box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+                border-radius: 15px;  
+                border-color: #FF00D6;
+                color: white ;
+                padding-bottom: 35px;
+              }
+              .plusdinfos{
+                width: 40%;
+                height: 38px; 
+                justify-content: center;
+                color: #585858;
+                font-size: 12.5px; 
+                font-family: Poppins;
+                font-weight: 500; 
+                background-color: #ffc70014;
+                border-radius: 15px;
+                border: 1.5px solid;
+                border-color: #ffc905;
+                box-shadow: 0px 4px 4px #00000026;
+                margin-left: 20px;
+                padding-bottom: 35px;
+              }
+            
+              
+              .illustration {
+               width:95%;
+               margin-top:40px;
+               margin-left: 10px;
+                
+              }
+
+              
+            }
+
+@media (max-width:280px) {
+
+  .firstContainer{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+    align-self: center;
+    background-image: url(./images/ThirdBannerPc.png);
+    padding-bottom: 60px;
+  }
+      .content{
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        margin-top: 50px;
+        margin-left: 0px;
+       
+      }
+      .content h1{
+        width: 95%;
+        font-size:18px;
+        font-family: "Poppins", Helvetica;
+        font-weight: 600;
+        line-height: 1.8;
+        text-align: center;
+        margin-top: -20px;
+      }
+      .content img{
+        width: 80%;
+        height: 2%;
+        margin-top: 20px;
+        margin-left: 30px;
+      }
+      .content h3{
+        width: 80%;
+        font-family:"IBM Plex Sans", Helvetica;
+        font-weight: 400;
+        font-size:14px;
+        margin-top: 30px;
+        line-height: 1.8;
+        text-align: center;
+        margin-left: 0px;
+      }
+       
+      .Buttonaction{
+        margin-top: 50px;
+        margin-left: 20px;
+        justify-content: center;
+      }
+      .sinscrire{
+        width: 50%; 
+        height: 38px; 
+      justify-content: center;
+        font-size: 13px; 
+        background: #FF00D6;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+        border-radius: 15px;  
+        border-color: #FF00D6;
+        color: white ;
+        padding-bottom: 35px;
+      }
+      .plusdinfos{
+        width: 50%;
+        height: 38px; 
+        justify-content: center;
+        color: #585858;
+        font-size: 9px; 
+        font-family: Poppins;
+        font-weight: 500; 
+        background-color: #ffc70014;
+        border-radius: 15px;
+        border: 1.5px solid;
+        border-color: #ffc905;
+        box-shadow: 0px 4px 4px #00000026;
+        margin-left: 20px;
+        padding-bottom: 35px;
+      }
+    
+      
+      .illustration {
+       width:95%;
+       margin-top:40px;
+       margin-left: 10px;
+        
+      }
+
+          
+      
+    }
+    

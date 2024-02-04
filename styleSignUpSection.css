@@ -1,0 +1,920 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.signupSection{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.signupSection .content{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin-top: 70px;
+  margin-left: 100px;
+ 
+}
+.signupSection .content  .enumeration{
+width: 100%;
+display: flex;
+flex-direction: row;
+gap:0px 40px;
+justify-content: left;
+margin-top: 40px;
+
+}
+.signupSection .content  .enumeration .ima{
+    width: 15px;
+    height: 15px;
+    background-image: url(./images/SVG500.svg);
+}
+.signupSection .content  .enumeration h3{
+width: 100%;
+margin-top: -8px;
+ font-size: 25px;
+ font-family: "Work Sans", Helvetica;
+ font-weight: 300;
+ color: #1d1d1b;
+letter-spacing: 0;
+ line-height: 1.8;
+}
+.signupSection .content p{
+width: 100%;
+margin-top: 40px;
+ font-size: 22px;
+ font-family: "Work Sans", Helvetica;
+ font-weight: 300;
+ color: #1d1d1b;
+letter-spacing: 0;
+ line-height: 1.8;
+}
+
+
+.signupSection .content h1{
+width: 95%;
+font-size: 28px;
+font-family: "Poppins", Helvetica;
+font-weight: 600;
+line-height: 1.8;
+}
+
+
+.signupSection .form{
+  align-items: center;
+  width: 50%;
+  height: 730px;
+  margin-top: 40px;
+
+}
+
+.signupSection .cadreForm{
+  margin-left: 0px;
+  width: 65%;
+  height: 730px;
+  border: 3px solid #F3F3F3;
+  background-color: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0px 40px 35.6px #00000014;
+  display: flex;
+  flex-direction: column;
+ align-items: center;
+
+}
+.signupSection .cadreForm .logo{
+ padding: 50px;
+}
+.signupSection .cadreForm .LabelInputEmail{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 60px;
+  padding: 0px 50px;
+  margin-left: 0px;
+}
+.signupSection .cadreForm .LabelInputEmail label{
+  width: 75%;
+  color: #DCDCDC;
+  font-size: 23px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  line-height: 1.8;
+  margin-left: 0px;
+}
+.signupSection .cadreForm .LabelInputEmail input{
+  width: 75%;
+  border-style: none;
+  border-bottom: 2px solid #DCDCDC;
+  margin-left: 0px;
+}
+.signupSection .cadreForm .LabelInputPassword{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 60px;
+  margin-left: 0px;
+}
+.signupSection .cadreForm .LabelInputPassword label{
+  width: 75%;
+  color: #DCDCDC;
+  font-size: 23px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  line-height: 1.8;
+  margin-left: 0px;
+}
+.signupSection .cadreForm .LabelInputPassword input{
+  width: 75%;
+  border-style: none;
+  border-bottom: 2px solid #DCDCDC;
+  margin-left: 0px;
+}
+.signupSection .cadreForm .Buttonaction{
+width: 75%; 
+}
+.signupSection .cadreForm .Buttonaction .send{
+  width: 100%; 
+  padding: 22px;
+   font-size: 15px; 
+   background: #FFC905;
+   border-style: none;
+   box-shadow: 0px 15px 15px rgba(161, 158, 158, 0.15);
+   border-radius: 15px;  
+   color: white ;
+  font-weight: 600;
+  margin-left: 0px;
+ 
+}
+
+@media (max-width:1935px) {
+
+    .signupSection{
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: row;
+    }
+    .signupSection .content{
+      width: 50%;
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      margin-top: 70px;
+      margin-left: 100px;
+     
+    }
+   .signupSection .content  .enumeration{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap:0px 40px;
+    justify-content: left;
+    margin-top: 40px;
+    
+   }
+   .signupSection .content  .enumeration .ima{
+        width: 15px;
+        height: 15px;
+        background-image: url(./images/SVG500.svg);
+   }
+   .signupSection .content  .enumeration h3{
+    width: 100%;
+    margin-top: -8px;
+     font-size: 25px;
+     font-family: "Work Sans", Helvetica;
+     font-weight: 300;
+     color: #1d1d1b;
+    letter-spacing: 0;
+     line-height: 1.8;
+}
+.signupSection .content p{
+    width: 100%;
+    margin-top: 40px;
+     font-size: 22px;
+     font-family: "Work Sans", Helvetica;
+     font-weight: 300;
+     color: #1d1d1b;
+    letter-spacing: 0;
+     line-height: 1.8;
+}
+   
+   
+   .signupSection .content h1{
+    width: 95%;
+    font-size: 28px;
+    font-family: "Poppins", Helvetica;
+    font-weight: 600;
+    line-height: 1.8;
+    }
+
+
+  .signupSection .form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    height: 730px;
+    margin-top: 40px;
+  
+  }
+
+  .signupSection .cadreForm{
+    margin-left: 0px;
+    width: 65%;
+    height: 730px;
+    border: 3px solid #F3F3F3;
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0px 40px 35.6px #00000014;
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+
+  }
+  .signupSection .cadreForm .logo{
+   padding: 50px;
+  }
+  .signupSection .cadreForm .LabelInputEmail{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    padding: 0px 50px;
+    margin-left: 0px;
+  }
+  .signupSection .cadreForm .LabelInputEmail label{
+    width: 75%;
+    color: #DCDCDC;
+    font-size: 23px;
+    font-family: "Poppins", Helvetica;
+    font-weight: 400;
+    line-height: 1.8;
+    margin-left: 0px;
+  }
+  .signupSection .cadreForm .LabelInputEmail input{
+    width: 75%;
+    border-style: none;
+    border-bottom: 2px solid #DCDCDC;
+    margin-left: 0px;
+  }
+  .signupSection .cadreForm .LabelInputPassword{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    margin-left: 0px;
+  }
+  .signupSection .cadreForm .LabelInputPassword label{
+    width: 75%;
+    color: #DCDCDC;
+    font-size: 23px;
+    font-family: "Poppins", Helvetica;
+    font-weight: 400;
+    line-height: 1.8;
+    margin-left: 0px;
+  }
+  .signupSection .cadreForm .LabelInputPassword input{
+    width: 75%;
+    border-style: none;
+    border-bottom: 2px solid #DCDCDC;
+    margin-left: 0px;
+  }
+ .signupSection .cadreForm .Buttonaction{
+  width: 75%; 
+ }
+  .signupSection .cadreForm .Buttonaction .send{
+    width: 100%; 
+    padding: 22px;
+     font-size: 15px; 
+     background: #FFC905;
+     border-style: none;
+     box-shadow: 0px 15px 15px rgba(161, 158, 158, 0.15);
+     border-radius: 15px;  
+     color: white ;
+    font-weight: 400;
+    margin-left: 0px;
+   
+  }
+}
+  
+  @media (max-width:1440px) {
+
+    .signupSection{
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: row;
+    }
+    .signupSection .content{
+      width: 50%;
+      display: flex;
+      flex-direction: column;
+      margin-top: 70px;
+      margin-left: 100px;
+     
+    }
+   .signupSection .content  .enumeration{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap:0px 40px;
+    justify-content: left;
+    margin-top: 40px;
+    
+   }
+   .signupSection .content  .enumeration .ima{
+        width: 15px;
+        height: 15px;
+        background-image: url(./images/SVG500.svg);
+   }
+   .signupSection .content  .enumeration h3{
+    width: 100%;
+    margin-top: -8px;
+     font-size: 20px;
+     font-family: "Work Sans", Helvetica;
+     font-weight: 300;
+     color: #1d1d1b;
+    letter-spacing: 0;
+     line-height: 1.8;
+}
+.signupSection .content p{
+    width: 100%;
+    margin-top: 40px;
+     font-size: 14px;
+     font-family: "Work Sans", Helvetica;
+     font-weight: 300;
+     color: #1d1d1b;
+    letter-spacing: 0;
+     line-height: 1.8;
+}
+   
+   
+   .signupSection .content h1{
+    width: 95%;
+    font-size: 23px;
+    font-family: "Poppins", Helvetica;
+    font-weight: 600;
+    line-height: 1.8;
+    color: #000;
+    }
+
+
+  .signupSection .form{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    height: 730px;
+    margin-top: 40px;
+  
+  }
+
+  .signupSection .cadreForm{
+    margin-left: 0px;
+    width: 65%;
+    height: 610px;
+    border: 3px solid #F3F3F3;
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0px 40px 35.6px #00000014;
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+
+  }
+  .signupSection .cadreForm .logo{
+   padding: 50px;
+  }
+  .signupSection .cadreForm .LabelInputEmail{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   align-items: center;
+    margin-top: 40px;
+  }
+  .signupSection .cadreForm .LabelInputEmail label{
+    width: 75%;
+    color: #DCDCDC;
+    font-size: 20px;
+    font-family: "Poppins", Helvetica;
+    font-weight: 400;
+    line-height: 1.8;
+    margin-left: 0px;
+  }
+  .signupSection .cadreForm .LabelInputEmail input{
+    width: 75%;
+    border-style: none;
+    border-bottom: 2px solid #DCDCDC;
+    margin-left: 0px;
+  }
+  .signupSection .cadreForm .LabelInputPassword{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+  }
+  .signupSection .cadreForm .LabelInputPassword label{
+    width: 75%;
+    color: #DCDCDC;
+    font-size: 20px;
+    font-family: "Poppins", Helvetica;
+    font-weight: 400;
+    line-height: 1.8;
+    margin-left: 0px;
+  }
+  .signupSection .cadreForm .LabelInputPassword input{
+    width: 75%;
+    border-style: none;
+    border-bottom: 2px solid #DCDCDC;
+    margin-left: 0px;
+  }
+  .signupSection .cadreForm .Buttonaction{
+    width: 75%; 
+    display: flex;
+    align-items: center;
+  }
+  .signupSection .cadreForm .Buttonaction .send{
+    width: 100%; 
+    padding: 22px;
+     font-size: 15px; 
+     background: #FFC905;
+     border-style: none;
+     box-shadow: 0px 15px 15px rgba(161, 158, 158, 0.15);
+     border-radius: 15px;  
+     color: white ;
+    font-weight: 600;
+    margin-top: 0px;
+  }
+}
+
+@media (max-width:912px) {
+
+  .signupSection{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .signupSection .content{
+    width: 93%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 70px;
+    margin-left: 20px;
+   
+  }
+ .signupSection .content  .enumeration{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  margin-top: 40px;
+  
+ }
+ .signupSection .content  .enumeration .ima{
+      width: 15px;
+      height: 15px;
+      background-image: url(./images/SVG500.svg);
+ }
+ .signupSection .content  .enumeration h3{
+  width: 100%;
+  margin-top: -8px;
+  margin-left: -10px;
+   font-size: 23px;
+   font-family: "Work Sans", Helvetica;
+   font-weight: 300;
+   color: #1d1d1b;
+  letter-spacing: 0;
+   line-height: 1.8;
+   text-align: left;
+}
+.signupSection .content p{
+  width: 100%;
+  margin-top: 40px;
+   font-size: 20px;
+   font-family: "Work Sans", Helvetica;
+   font-weight: 300;
+   color: #1d1d1b;
+  letter-spacing: 0;
+   line-height: 1.8;
+}
+ 
+ 
+ .signupSection .content h1{
+  width: 95%;
+  font-size: 25px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 600;
+  line-height: 1.8;
+  text-align: left;
+  }
+
+
+.signupSection .form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 730px;
+  margin-top: 40px;
+
+}
+
+.signupSection .cadreForm{
+  margin-left: 0px;
+  width: 65%;
+  height: 780px;
+  border: 3px solid #F3F3F3;
+  background-color: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0px 40px 35.6px #00000014;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+.signupSection .cadreForm .logo{
+ padding: 50px;
+}
+.signupSection .cadreForm .LabelInputEmail{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 60px;
+}
+.signupSection .cadreForm .LabelInputEmail label{
+  width: 80%;
+  color: #DCDCDC;
+  font-size: 24px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  line-height: 1.8;
+  margin-left: 0px;
+}
+.signupSection .cadreForm .LabelInputEmail input{
+  width: 80%;
+  border-style: none;
+  border-bottom: 2px solid #DCDCDC;
+  margin-left: 0px;
+}
+.signupSection .cadreForm .LabelInputPassword{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 80px;
+}
+.signupSection .cadreForm .LabelInputPassword label{
+  width: 80%;
+  color: #DCDCDC;
+  font-size: 24px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  line-height: 1.8;
+  margin-left: 0px;
+}
+.signupSection .cadreForm .LabelInputPassword input{
+  width: 80%;
+  border-style: none;
+  border-bottom: 2px solid #DCDCDC;
+  margin-left: 0px;
+}
+.signupSection .cadreForm .Buttonaction{
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.signupSection .cadreForm .Buttonaction .send{
+  width: 100%; 
+  padding: 25px;
+   font-size: 18px; 
+   background: #FFC905;
+   border-style: none;
+   box-shadow: 0px 15px 15px rgba(161, 158, 158, 0.15);
+   border-radius: 15px;  
+   color: white ;
+  font-weight: 600;
+  margin-left: 0px;
+  margin-top: 80px;
+}
+}
+@media (max-width:650px) {
+
+    .signupSection{
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+    }
+    .signupSection .content{
+      width: 85%;
+      display: flex;
+      flex-direction: column;
+      margin-top: 70px;
+      margin-left: 20px;
+     
+    }
+   .signupSection .content  .enumeration{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    margin-top: 40px;
+    
+   }
+   .signupSection .content  .enumeration .ima{
+        width: 15px;
+        height: 15px;
+        background-image: url(./images/SVG500.svg);
+   }
+   .signupSection .content  .enumeration h3{
+    width: 100%;
+    margin-top: -8px;
+    margin-left: -10px;
+     font-size: 18px;
+     font-family: "Work Sans", Helvetica;
+     font-weight: 300;
+     color: #1d1d1b;
+    letter-spacing: 0;
+     line-height: 1.8;
+     text-align: left;
+}
+.signupSection .content p{
+    width: 100%;
+    margin-top: 40px;
+     font-size: 16px;
+     font-family: "Work Sans", Helvetica;
+     font-weight: 300;
+     color: #1d1d1b;
+    letter-spacing: 0;
+     line-height: 1.8;
+}
+   
+   
+   .signupSection .content h1{
+    width: 95%;
+    font-size: 20px;
+    font-family: "Poppins", Helvetica;
+    font-weight: 600;
+    line-height: 1.8;
+    text-align: left;
+    }
+
+
+    .signupSection .form{
+      width: 100%;
+      height: 730px;
+      margin-top: 40px;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+    }
+  
+    .signupSection .cadreForm{
+      margin-left: 0px;
+      width: 70%;
+      height: 610px;
+      border: 3px solid #F3F3F3;
+      background-color: #ffffff;
+      border-radius: 20px;
+      box-shadow: 0px 40px 35.6px #00000014;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  
+    }
+    .signupSection .cadreForm .logo{
+     padding: 30px;
+    }
+    .signupSection .cadreForm .LabelInputEmail{
+      display: flex;
+      flex-direction: column;
+     align-items: center;
+      margin-top: 40px;
+    }
+    .signupSection .cadreForm .LabelInputEmail label{
+      width: 75%;
+      color: #DCDCDC;
+      font-size: 20px;
+      font-family: "Poppins", Helvetica;
+      font-weight: 400;
+      line-height: 1.8;
+      margin-left: 0px;
+    }
+    .signupSection .cadreForm .LabelInputEmail input{
+      width: 75%;
+      border-style: none;
+      border-bottom: 2px solid #DCDCDC;
+      margin-left: 0px;
+    }
+    .signupSection .cadreForm .LabelInputPassword{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 40px;
+    }
+    .signupSection .cadreForm .LabelInputPassword label{
+      width: 75%;
+      color: #DCDCDC;
+      font-size: 20px;
+      font-family: "Poppins", Helvetica;
+      font-weight: 400;
+      line-height: 1.8;
+      margin-left: 0px;
+    }
+    .signupSection .cadreForm .LabelInputPassword input{
+      width: 75%;
+      border-style: none;
+      border-bottom: 2px solid #DCDCDC;
+      margin-left: 0px;
+    }
+  
+    .signupSection .cadreForm .Buttonaction{
+      width: 75%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .signupSection .cadreForm .Buttonaction .send{
+      width: 100%; 
+      padding: 20px;
+      font-size: 13px; 
+      background: #FFC905;
+      border-style: none;
+      box-shadow: 0px 15px 15px rgba(161, 158, 158, 0.15);
+      border-radius: 15px;  
+      color: white ;
+      font-weight: 600;
+      margin-left: -20px;
+      margin-top: 40px;
+    }
+}
+
+@media (max-width:280px) {
+
+  .signupSection{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .signupSection .content{
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 70px;
+    margin-left: 20px;
+   
+  }
+ .signupSection .content  .enumeration{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  margin-top: 40px;
+  
+ }
+ .signupSection .content  .enumeration .ima{
+      width: 15px;
+      height: 15px;
+      background-image: url(./images/SVG500.svg);
+ }
+ .signupSection .content  .enumeration h3{
+  width: 100%;
+  margin-top: -8px;
+  margin-left: -10px;
+   font-size: 18px;
+   font-family: "Work Sans", Helvetica;
+   font-weight: 300;
+   color: #1d1d1b;
+  letter-spacing: 0;
+   line-height: 1.8;
+   text-align: left;
+}
+.signupSection .content p{
+  width: 100%;
+  margin-top: 40px;
+   font-size: 16px;
+   font-family: "Work Sans", Helvetica;
+   font-weight: 300;
+   color: #1d1d1b;
+  letter-spacing: 0;
+   line-height: 1.8;
+}
+ 
+ 
+ .signupSection .content h1{
+  width: 95%;
+  font-size: 20px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 600;
+  line-height: 1.8;
+  text-align: left;
+  }
+
+
+  .signupSection .form{
+    width: 100%;
+    height: 730px;
+    margin-top: 40px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+  }
+
+  .signupSection .cadreForm{
+    margin-left: 0px;
+    width: 60%;
+    height: 610px;
+    border: 3px solid #F3F3F3;
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0px 20px 35.6px #00000014;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+  }
+  .signupSection .cadreForm .logo{
+   padding: 30px;
+  }
+  .signupSection .cadreForm .LabelInputEmail{
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+    margin-top: 40px;
+  }
+  .signupSection .cadreForm .LabelInputEmail label{
+    width: 75%;
+    color: #DCDCDC;
+    font-size: 20px;
+    font-family: "Poppins", Helvetica;
+    font-weight: 400;
+    line-height: 1.8;
+    margin-left: 0px;
+  }
+  .signupSection .cadreForm .LabelInputEmail input{
+    width: 75%;
+    border-style: none;
+    border-bottom: 2px solid #DCDCDC;
+    margin-left: 0px;
+  }
+  .signupSection .cadreForm .LabelInputPassword{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+  }
+  .signupSection .cadreForm .LabelInputPassword label{
+    width: 75%;
+    color: #DCDCDC;
+    font-size: 20px;
+    font-family: "Poppins", Helvetica;
+    font-weight: 400;
+    line-height: 1.8;
+    margin-left: 0px;
+  }
+  .signupSection .cadreForm .LabelInputPassword input{
+    width: 75%;
+    border-style: none;
+    border-bottom: 2px solid #DCDCDC;
+    margin-left: 0px;
+  }
+
+  .signupSection .cadreForm .Buttonaction{
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .signupSection .cadreForm .Buttonaction .send{
+    width: 100%; 
+    padding: 20px;
+    font-size: 13px; 
+    background: #FFC905;
+    border-style: none;
+    box-shadow: 0px 15px 15px rgba(161, 158, 158, 0.15);
+    border-radius: 15px;  
+    color: white ;
+    font-weight: 600;
+    margin-left: -20px;
+    margin-top: 40px;
+  }
+}
+
